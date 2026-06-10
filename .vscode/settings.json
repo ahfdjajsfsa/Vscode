@@ -4,6 +4,14 @@
         "iostream": "cpp",
         "fstream": "cpp"
     },
+    "terminal.integrated.env.windows": {
+        "PATH": "D:\\code_interpreter\\mingw64\\bin;${env:PATH}"
+    },
+    "c-cpp-compile-run.c-compiler": "D:\\code_interpreter\\mingw64\\bin\\gcc.exe",
+    "c-cpp-compile-run.cpp-compiler": "D:\\code_interpreter\\mingw64\\bin\\g++.exe",
+    "c-cpp-compile-run.output-location": "D:\\Github\\Vscode\\C\\output",
+    "c-cpp-compile-run.cpp-flags": "-Wall -Wextra -g3 -fexec-charset=GBK",
+    "c-cpp-compile-run.c-flags": "-Wall -Wextra -g3 -fexec-charset=GBK",
     "chatgpt.commentCodeLensEnabled": false,
     "chatgpt.openOnStartup": false
 }

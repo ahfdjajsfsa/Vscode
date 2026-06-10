@@ -12,9 +12,9 @@
             "name": "Debug (g++ -> C/output)",
             "type": "lldb",
             "request": "launch",
-            "program": "\\C\\output\\.exe",
+            "program": "D:\\Github\\Vscode\\C\\output\\${fileBasenameNoExtension}.exe",
             "args": [],
-            "cwd": "\\C",
+            "cwd": "${fileDirname}",
             "preLaunchTask": "build active file to C/output (g++)"
         }
     ]
